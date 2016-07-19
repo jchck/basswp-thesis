@@ -70,7 +70,7 @@ gulp.task('css', function(){
 // js processing task
 gulp.task('js', function() {
   gulp.src([
-    './src/js/main.js'
+    './src/js/thesis.js'
   ])
 
   // put it together
@@ -89,15 +89,15 @@ gulp.task('js', function() {
 //
 // Image optimizing task
 //
-// $ gulp pics
+// $ gulp img
 //
 
-gulp.task('pics', function(){
-	return gulp.src('./src/pics/**.*')
+gulp.task('img', function(){
+	return gulp.src('./src/img/**.*')
 
 	.pipe(imagemin({verbose: true}))
 
-	.pipe(gulp.dest('./dest/pics'))
+	.pipe(gulp.dest('./dest/img'))
 });
 
 
@@ -177,8 +177,8 @@ gulp.task('uncss', function(){
 //
 
 gulp.task('default', ['css', 'watch'], function(){
-  gulp.start('css', 'pics');
+  gulp.start('css', 'img');
   gulp.watch('src/css/**.css', ['css']);
   gulp.watch('src/js/**.js', ['js']);
-  gulp.watch('src/img/**.*', ['pics']);
+  gulp.watch('src/img/**.*', ['img']);
 });
