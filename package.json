@@ -2,6 +2,8 @@
   "name": "basswp-thesis",
   "version": "1.0.0",
   "description": "",
+  "author": "jchck <hey@justinchick.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://jchck@github.com/jchck/basswp-thesis.git"
@@ -12,12 +14,13 @@
     "basscss",
     "oocss"
   ],
-  "author": "jchck <hey@justinchick.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jchck/basswp-thesis/issues"
   },
   "homepage": "https://github.com/jchck/basswp-thesis#readme",
+  "engines": {
+    "node": ">= 6.0"
+  },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
     "browser-sync": "^2.12.5",
