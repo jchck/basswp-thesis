@@ -6,7 +6,7 @@
   $ brew link node
 */
 
-var devUrl			= 'http://vagrant.local/wpma/';
+var devUrl			= 'http://192.168.33.10'; /* as defined in Basswp's vagrant file */
 
 // Load pluging
 var autoprefixer	= require('autoprefixer');
