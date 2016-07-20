@@ -5,7 +5,8 @@ $includes = [
 	'logic/setup.php',
 	'logic/titles.php',
 	'logic/excerpt.php'
-	'logic/jetpack.php'
+	'logic/jetpack.php',
+	'logic/wrapper.php'
 ];
 
 foreach ($includes as $file) {
