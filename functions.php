@@ -3,7 +3,8 @@
 $includes = [
 	'logic/assets.php',
 	'logic/setup.php',
-	'logic/titles.php'
+	'logic/titles.php',
+	'logic/excerpt.php'
 ];
 
 foreach ($includes as $file) {
