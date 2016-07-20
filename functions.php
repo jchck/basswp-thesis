@@ -2,6 +2,7 @@
 
 $includes = [
 	'logic/assets.php',
+	'logic/setup.php'
 ];
 
 foreach ($includes as $file) {
