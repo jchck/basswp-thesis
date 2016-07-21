@@ -1,6 +1,6 @@
 <?php
 
-namespace basswp\thss\excerpt.php;
+namespace basswp\thss\excerpt;
 
 function clean(){
 	/**

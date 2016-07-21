@@ -14,7 +14,7 @@ function assets(){
 
 	wp_enqueue_script('js', get_template_directory_uri() . '/dest/thesis.js', ['jquery'], null, true);
 
-	if ( is_single() && comments_open() && get_option( 'thread_comments' );)) {
+	if ( is_single() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
